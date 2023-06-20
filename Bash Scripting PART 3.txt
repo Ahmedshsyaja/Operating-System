@@ -1,0 +1,29 @@
+counter=1
+while [ $counter -le 10 ]
+do
+
+if ((
+
+$counter % 2 == 0 ))
+then
+echo "$counter is Even "
+elif (( $counter % 3 == 0 ))
+then
+echo "$counter is odd "
+fi
+((counter++))
+done
+echo ALL done
+FILE
+
+OUT PUT
+PART 2
+read counter
+while [ $counter -gt 0 ]
+do
+let b=$( expr $counter % 10 )
+let a=$(expr $a + $b )
+let c=$(expr $counter / 10 )
+let counter=$c
+done
+echo $a

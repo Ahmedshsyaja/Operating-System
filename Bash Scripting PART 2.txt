@@ -1,0 +1,26 @@
+echo -n "Enter the name of a country: "
+read chh
+case $chh in
+Monday)
+echo -n "Happy Day"
+;;
+Tuesday)
+echo -n "Great Day"
+;;
+Wednesday)
+echo -n "Very Happy Day"
+;;
+
+Thrusday)
+echo -n "Pleasent Day"
+;;
+Friday)
+echo -n "Vey Pleasent Day"
+;;
+Saturday)
+echo -n "Blessed"
+;;
+*)
+echo -n "unknown"
+;;
+esac
